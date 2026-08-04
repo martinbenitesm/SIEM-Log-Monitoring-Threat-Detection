@@ -1,6 +1,8 @@
-# SIEM Log Monitoring & Threat Detection (Laboratorio SOC)
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=1000&height=80&lines=SIEM+Log+Monitoring+and+Threat+Detection" />
+</p>
 
-## 🎯 Objetivo del Proyecto
+# Objetivo del Proyecto
 Construir un entorno de laboratorio SIEM completo para recolectar telemetría de endpoints (logs), simular ataques reales (Fuerza bruta y evasión con PowerShell) y desarrollar reglas de detección personalizadas para identificar estas amenazas.
 
 ## 🛠️ Herramientas y Entorno Utilizado
