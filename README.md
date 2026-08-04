@@ -6,9 +6,9 @@
 Construir un entorno de laboratorio SIEM completo para recolectar telemetría de endpoints (logs), simular ataques reales (Fuerza bruta y evasión con PowerShell) y desarrollar reglas de detección personalizadas para identificar estas amenazas.
 
 ## Herramientas y Entorno Utilizado
-* **SIEM:** Splunk Free / ELK Stack (El que elijamos).
+* **SIEM:** Wazuh / ELK Stack (El que elijamos).
 * **Endpoint Management:** Sysmon (System Monitor) de Sysinternals.
-* **Máquinas Virtuales (Hypervisor):** Oracle VirtualBox / VMware Workstation.
+* **Máquinas Virtuales (Hypervisor):** Oracle VirtualBox.
 * **Sistemas Operativos:** Windows 10/11 (Víctima) y Kali Linux (Atacante).
 
 ## Topología de Red Lógica
