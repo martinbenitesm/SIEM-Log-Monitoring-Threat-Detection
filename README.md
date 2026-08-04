@@ -2,19 +2,19 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&pause=1000&color=00BFFF&center=true&vCenter=true&width=1000&height=80&lines=SIEM+Log+Monitoring+and+Threat+Detection" />
 </p>
 
-# Objetivo del Proyecto
+## Objetivo del Proyecto
 Construir un entorno de laboratorio SIEM completo para recolectar telemetría de endpoints (logs), simular ataques reales (Fuerza bruta y evasión con PowerShell) y desarrollar reglas de detección personalizadas para identificar estas amenazas.
 
-## 🛠️ Herramientas y Entorno Utilizado
+## Herramientas y Entorno Utilizado
 * **SIEM:** Splunk Free / ELK Stack (El que elijamos).
 * **Endpoint Management:** Sysmon (System Monitor) de Sysinternals.
 * **Máquinas Virtuales (Hypervisor):** Oracle VirtualBox / VMware Workstation.
 * **Sistemas Operativos:** Windows 10/11 (Víctima) y Kali Linux (Atacante).
 
-## 🗺️ Topología de Red Lógica
+## Topología de Red Lógica
 > [Aquí insertaremos un diagrama simple hecho en draw.io mostrando a Kali atacando a Windows, y Windows enviando logs al servidor SIEM]. 📸 Captura del diagrama de red.
 
-## 👣 Pasos de Ejecución y Evidencia
+## Pasos de Ejecución y Evidencia
 
 ### Fase 1: Despliegue del Entorno y SIEM
 * Instalación y configuración de la máquina virtual atacante y víctima.
@@ -41,5 +41,5 @@ Construir un entorno de laboratorio SIEM completo para recolectar telemetría de
 * Creación de reglas de alerta automatizadas basadas en las queries anteriores.
 * 📸 Captura: Configuración de la alerta en el SIEM (Ej: "Alerta de múltiples inicios de sesión fallidos").
 
-## 💡 Conclusiones y Lecciones Aprendidas
+## Conclusiones y Lecciones Aprendidas
 * [Aquí redactaremos qué habilidades técnicas mejoraste, qué obstáculos superaste y cómo esto simula un entorno real].
