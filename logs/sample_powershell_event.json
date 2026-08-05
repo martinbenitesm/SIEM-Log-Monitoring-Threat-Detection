@@ -1,0 +1,26 @@
+{
+  "timestamp": "2026-08-04T15:29:09.188+0000",
+  "rule": {
+    "level": 12,
+    "description": "Powershell.exe spawned a powershell process which executed a base64 encoded command",
+    "id": "92057",
+    "mitre": {
+      "id": ["T1059.001"],
+      "tactic": ["Execution"],
+      "technique": ["Command and Scripting Interpreter: PowerShell"]
+    }
+  },
+  "agent": {
+    "id": "001",
+    "name": "Windows-Victima",
+    "ip": "10.0.2.15"
+  },
+  "data": {
+    "win": {
+      "eventdata": {
+        "image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+        "commandLine": "powershell.exe -EncodedCommand cwB0AGEAcgB0AC0AcAByAG8AYwBlAHMAcwAgAGMAYQBsAGMALgBlAHgAZQ=="
+      }
+    }
+  }
+}

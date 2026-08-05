@@ -1,0 +1,23 @@
+<!-- Reglas personalizadas para Wazuh SIEM -->
+<group name="local,sysmon,windows,">
+
+  <!-- Regla 1: Deteccion de Fuerza Bruta SMB / Inicios de sesion fallidos -->
+  <rule id="100001" level="10">
+    <if_sid>60109, 60122</if_sid>
+    <description>Alerta SOC: Intento de Fuerza Bruta SMB en Windows (Event 4625/60122)</description>
+    <mitre>
+      <id>T1110</id>
+    </mitre>
+  </rule>
+
+  <!-- Regla 2: Deteccion de Comandos Codificados en PowerShell -->
+  <rule id="100002" level="12">
+    <if_sid>61603, 60000, 92057</if_sid>
+    <match>-EncodedCommand|-e|-enc</match>
+    <description>Alerta SOC: Ejecucion de PowerShell Codificado en Base64</description>
+    <mitre>
+      <id>T1059.001</id>
+    </mitre>
+  </rule>
+
+</group>
