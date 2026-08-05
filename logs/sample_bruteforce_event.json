@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-08-04T16:19:38.227+0000",
+  "rule": {
+    "level": 5,
+    "description": "Logon Failure - Unknown user or bad password",
+    "id": "60122",
+    "mitre": {
+      "id": ["T1110"],
+      "tactic": ["Credential Access"],
+      "technique": ["Brute Force"]
+    }
+  },
+  "agent": {
+    "id": "001",
+    "name": "Windows-Victima",
+    "ip": "10.0.2.15"
+  },
+  "data": {
+    "win": {
+      "system": {
+        "providerName": "Microsoft-Windows-Security-Auditing",
+        "eventID": "4625"
+      },
+      "eventdata": {
+        "targetUserName": "Administrator",
+        "ipAddress": "10.0.2.4",
+        "logonType": "3"
+      }
+    }
+  }
+}
